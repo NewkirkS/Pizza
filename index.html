@@ -12,7 +12,61 @@
       <h1>Crypt of the Pizza Lord</h1>
       <div class="row">
         <div class="col-md-6">
-          
+          <form>
+            <div class="form-group">
+              <label for="pizza-size">Select Size:</label>
+              <select class="form-control" id="pizza-size">
+                <option value="5">Small</option>
+                <option value="6">Medium</option>
+                <option value="7">Medium-Large</option>
+                <option value="8">Large</option>
+                <option value="9">Crypt-Lord's Feast</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <h4>Choose your toppings:</h4>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Kobold Fingers
+                </label>
+              </div>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Mysterious Fungi
+                </label>
+              </div>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Pepperoni Goblins
+                </label>
+              </div>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Dragon Peppers
+                </label>
+              </div>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Ancient Lichen
+                </label>
+              </div>
+              <div class="checkbox-inline">
+                <label>
+                  <input type="checkbox" value="1">
+                  Gelatinous Cubes
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Order</button>
+          </form>
+        </div>
+        <div class="col-md-6" id="output">
+          <p id="price-output"></p>
         </div>
       </div>
     </div>
