@@ -1,0 +1,24 @@
+#page-header-text {
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  font-size: 7em;
+}
+
+#page-header-subtext {
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+ img {
+   margin-right: 30px;
+ }
+#page-header {
+  margin-bottom: 50px;
+}
+.order-form {
+  border: 8px black;
+  border-style: double;;
+  border-radius: 10px;
+  padding:10px;
+  text-align: center;
+}

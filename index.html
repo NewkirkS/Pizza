@@ -2,16 +2,23 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Crypt of the Pizza Lord</title>
+    <title>Pizza</title>
   </head>
   <body>
     <div class="container">
-      <h1>Crypt of the Pizza Lord</h1>
+      <div id="page-header">
+      <h1 id="page-header-text">Pizza Dungeon</h1>
+      <h3 id="page-header-subtext">Enter the Crypt of the Pie-Master</h3>
+      </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-10 order-form">
           <form>
             <div class="form-group">
               <label for="pizza-size">Select Size:</label>
@@ -26,50 +33,64 @@
             <div class="form-group">
               <h4>Choose your toppings:</h4>
               <div class="checkbox-inline">
+                <img src="img/img2.jpg" alt="Fingers" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Kobold Fingers" name="topping">
                   Kobold Fingers
                 </label>
               </div>
               <div class="checkbox-inline">
+                <img src="img/img3.jpeg" alt="Shrooms" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Mysterious Fungi" name="topping">
                   Mysterious Fungi
                 </label>
               </div>
               <div class="checkbox-inline">
+                <img src="img/img1.jpg" alt="Goblins" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Pepperoni Goblins" name="topping">
                   Pepperoni Goblins
                 </label>
               </div>
               <div class="checkbox-inline">
+                <img src="img/img4.jpg" alt="Peppers" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Dragon Peppers" name="topping">
                   Dragon Peppers
                 </label>
               </div>
               <div class="checkbox-inline">
+                <img src="img/img5.jpg" alt="Lichen" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Ancient Lichen" name="topping">
                   Ancient Lichen
                 </label>
               </div>
               <div class="checkbox-inline">
+                <img src="img/img6.jpg" alt="Cubes" class="img-circle img-responsive">
                 <label>
                   <input type="checkbox" value="Gelatinous Cubes" name="topping">
                   Gelatinous Cubes
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Order</button>
+            <button type="submit" class="btn btn-primary btn-lg">Order</button>
           </form>
         </div>
+        <div class="col-md-1">
+
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6" id="output">
           <h3 id="price-output"></h3>
           <ol id="topping-list">
 
           </ol>
+        </div>
+        <div class="col-md-6" id="pizzaimg">
+
         </div>
       </div>
     </div>
