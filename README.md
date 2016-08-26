@@ -1,12 +1,31 @@
-# _Rides_
+# _Crypt of the Pizza Lord_
 
-#### _Used branching logic to display different elements on a webpage 08.11.2016_
+#### _Pizza ordering webpage. 08.26.2016_
 
-#### By _**Stephen Newkirk and Jon Toler**_
+#### By _**Stephen Newkirk**_
 
 ## Description
 
-_A amusement park site that displays different rides based on the user's height. We used Javascript to convert feet to inches and display rides based on that converted value._
+_This site allows users to select pizza sizes and toppings and displays a price based on the input provided._
+
+## Specifications
+
+###### Behavior 1: Generate price for average pizza w/ no toppings.
+* Input: pizza
+* Output: $13
+
+###### Behavior 2: Allow users to add one topping and add cost to price.
+* Input: pizza + mushrooms
+* Output: $15
+
+###### Behavior 3: Users can select multiple sizes.
+* Input:  large pizza + mushrooms
+* Output: $17
+
+###### Behavior 4: Users can select multiple toppings.
+* Input:  large pizza + mushrooms + jalapenos
+* Output: $19
+
 
 ## Known Bugs
 
@@ -14,14 +33,14 @@ _N/A_
 
 ## Technologies Used
 
-_Atom_
-_HTML_
-_CSS_
-_Javascript_
-_jQuery_
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* jQuery
 
 ### License
 
 _This software is licensed under the MIT license._
 
-Copyright (c) 2016 Stephen Newkirk and Jon Toler All Rights Reserved.
+Copyright (c) 2016 Stephen Newkirk All Rights Reserved.
