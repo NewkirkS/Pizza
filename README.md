@@ -1,4 +1,4 @@
-# _Crypt of the Pizza Lord_
+# _Pizza Dungeon_
 
 #### _Pizza ordering webpage. 08.26.2016_
 
