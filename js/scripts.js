@@ -14,6 +14,7 @@ $(function(){
 
   $("form").submit(function(event){
     event.preventDefault();
+    $("#topping-list").empty();
     var pizzaSize = $("select#pizza-size").val();
     var newPizza = new Pizza(pizzaSize);
 
@@ -23,6 +24,9 @@ $(function(){
 
     $("#price-output").text("Your total is $" + newPizza.price());
 
+    newPizza.toppings.forEach(function(topping){
+      $("#topping-list").append("<li>" + topping + "</li>")
+    });
 
     $("input:checkbox").prop("checked", false);
   });
