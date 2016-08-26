@@ -2,6 +2,7 @@
   font-family: 'New Rocker', cursive;
   text-align: center;
   font-size: 7em;
+  text-shadow: 5px 5px grey;
 }
 
 #page-header-subtext {
@@ -10,7 +11,7 @@
   font-size: 2em;
 }
  img {
-   margin-right: 30px;
+   margin: 20px;
  }
 #page-header {
   margin-bottom: 50px;
@@ -19,6 +20,23 @@
   border: 8px black;
   border-style: double;;
   border-radius: 10px;
-  padding:10px;
+  padding:30px;
   text-align: center;
+}
+
+button {
+  margin: 50px 50px;
+}
+ #output {
+   text-align: center;
+   font-family: 'New Rocker', cursive;
+   list-style: inside;
+ }
+
+#price-output {
+   font-size: 4em;
+}
+
+#topping-list {
+  font-size: 2em;
 }
