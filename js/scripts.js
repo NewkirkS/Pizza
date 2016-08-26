@@ -1,14 +1,11 @@
 //Back-End
 function Pizza(size) {
   this.pSize= size;
-  this.toppings = [1, 2];
+  this.toppings = [];
 }
 
 Pizza.prototype.price = function() {
-  // var sizePrice = Math.round(this.pSize * 1.5);
-  // var numOfToppings = this.toppings.length;
-  // var totalPrice = sizePrice + (numOfToppings * 2);
-  var totalPrice = Math.round(this.pSize * 1.5) + (this.toppings.length * 2);
+  var totalPrice = Math.round(this.pSize * 1.8) + (this.toppings.length * 2);
   return totalPrice;
 }
 
@@ -19,6 +16,11 @@ $(function(){
     event.preventDefault();
     var pizzaSize = $("select#pizza-size").val();
     var newPizza = new Pizza(pizzaSize);
-    console.log(newPizza.price());
+
+    $.each($("input[name='topping']:checked"), function() {
+      newPizza.toppings.push($(this).val());
+    });
+    console.log(newPizza.toppings);
   });
+
 });
