@@ -20,7 +20,11 @@ $(function(){
     $.each($("input[name='topping']:checked"), function() {
       newPizza.toppings.push($(this).val());
     });
-    console.log(newPizza.toppings);
+
+    $("#price-output").text("Your total is $" + newPizza.price());
+
+
+    $("input:checkbox").prop("checked", false);
   });
 
 });
