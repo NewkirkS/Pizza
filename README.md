@@ -8,6 +8,8 @@
 
 _This site allows users to select pizza sizes and toppings and displays a price based on the input provided._
 
+* View page live at: https://newkirks.github.io/Pizza/
+
 ## Specifications
 
 ###### Behavior 1: Generate price for average pizza w/ no toppings.
